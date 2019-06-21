@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"> <!-- imports stylesheet style.css -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> <!-- imports jQuery library -->
 		<title>Pokemon Battle</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		> <!-- imports stylesheet style.css -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jqery.min.js"></script>
-		<!-- imports jQuery library -->
 	</head>
 	<body>
-		<header>
-			<h1>Pokemon Battle</h1>
-		</header>
+		<h1 id="header">Pokemon Battle</h1>
 
-		<main>
-			<div id="start">
-				<div class="cards">
-					<div id="first" class="card">
-						<img class="poke-img" src="http://www.sccpre.cat/png/list/121/1213432_question-mark-gif-png.png" alt="question image">
-						<button>Get Pokemon!</button>
-					</div>
-					<div id="second" class="card">
-						<img class="poke-img" src="http://www.sccpre.cat/png/list/121/1213432_question-mark-gif-png.png" alt="question image">
-						<button>Get Pokemon!</button>
-					</div>
+		<div id="container">
+			<div id="battleArea">
+
+				<div id="left">
+					<img class="poke-img" src="./images/questionMark.png">
+					<button id="leftButton">Get Random Pokemon!</button>
 				</div>
-				<button>Battle!</button>
+
+				<div id="right">
+					<img class="poke-img" src="./images/questionMark.png">
+					<button id="rightButton">Get Random Pokemon!</button>
+				</div>
+
 			</div>
+<<<<<<< HEAD
 		</main>
 		<script src="scripts.js"></script>
+=======
+			<button id="battleButton">Battle!</button>
+		</div>
+
+		<script src="script.js"></script>  <!-- imports javascript file script.js -->
+>>>>>>> 9719f74871d11d2b72a423069670d72db5ae8331
 	</body>
 </html>
